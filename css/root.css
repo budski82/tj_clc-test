@@ -1,0 +1,31 @@
+// Link to fonts-g and root variables
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+:root {
+
+	--ff-prim: 'Raleway', sans-serif;
+	--bgrd-6:{
+		   background: #7668,
+		   color: darkgreen,
+		   border: 1em solid purple;
+	}
+}
+
+
+*, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+body  {
+	background: #7668;
+	font-family:var(--ff-prim);
+
+}
+
+
